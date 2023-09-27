@@ -22,6 +22,7 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "Atlag negyzete:" << atlag*atlag << std:endl;
     delete[] b;
     return 0;  
 }
